@@ -145,9 +145,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        url="t.me/Anshu_Priy")],
                                                                                    [InlineKeyboardButton(text="ADD J.A.R.V.I.S. TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/legendx22/GRANDROBOT")
-                                                                                 ]]))
+                                                                                   
 
     else:
         update.effective_message.reply_text("Yuss, I am Already ONline")
